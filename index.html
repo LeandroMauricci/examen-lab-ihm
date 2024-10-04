@@ -12,12 +12,30 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 
-	<title>UPAO</title>
+	<title>My New Linkedin</title>
 </head>
 
 <body class="fondo">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="">Menú</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#seccion2">Mis talentos, educación e idiomas<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#seccion3">Artículo de interés</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 	<header class="container-fluid bg-info text-white">
+		
 		<div class="row justify-content-between">
 			<div class="col-md-auto">
 				<h3 class="texto-especial">My New LinkedIn</h3>
@@ -42,12 +60,14 @@
 		<div class="row">
 			<main class="col contenedor-redondeado-azul">
 				<img src="img/fondo1.jpg" alt="" class="img-fluid">
+				<img src="img/foto.jpg" alt="" class="img-fluid rounded-circle foto">
 				<h1 class="text-right">Leandro Mauricci Becerra</h1>
 				<h4 class="text-right">Estudiante apasionado de Ingeniería de sistemas en la UPAO</h4>
 				<p class="text-justify d-none d-lg-block">Hola, soy Leandro Mauricci Becerra. Tengo 19 años y estudio
 					ingenieria de sistemas en la UPAO. Actualmente me encuentor en 5to ciclo y tengo muchas ganas de
-					seguir aprendiendo día a día. Te invito a que revises mi perfil y te dejo cómo contactarme.</p>
-				<!--<img src="img/foto.jpg" alt="" class="img-fluid rounded-circle" style="position: absolute; left: 4rem; max-width: 10rem;">-->
+					seguir aprendiendo día a día. Dentro de unos años me veo especializandome en auditoría de sistemas o
+					en ciencia de datos. Te invito a que revises mi perfil y te dejo cómo contactarme.</p>
+
 			</main>
 			<aside class="aside cuadroaside d-none d-lg-block">
 				<section class="text-justify">
@@ -67,7 +87,7 @@
 
 		</div>
 	</div>
-	<div class="container contenedor">
+	<div id="seccion2" class="container contenedor">
 		<section class="row">
 			<div class="col-md-4">
 				<p>
@@ -156,7 +176,7 @@
 							<div class="col">
 								<h2>Francés básico</h2>
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
@@ -166,7 +186,7 @@
 
 	</div>
 
-	<div class="container contenedor mt-0">
+	<div id="seccion3" class="container contenedor mt-0">
 		<div class="row m-0 p-0">
 			<div class="col border-dark articulo">
 				<h2>Artículo de interés</h2>
@@ -174,7 +194,7 @@
 				<p class="text-justify">SQL es el lenguaje que nunca muere. "What goes around, comes around... and
 					around" signifca que lo que va vuelve y vuelve y ello aplica a que no importa cuanto las bases de
 					datos hagan innvovaciones (base de datos no relacional, tridimiensional)... todas las innovaciones
-					terminan siendo absorbidas por una base de datos relaiconal con SQL.</p>
+					terminan siendo absorbidas por una base de datos relacional con SQL.</p>
 				<p>
 					<a href="https://sigmodrecord.org/publications/sigmodRecord/2406/pdfs/04_Surveys_Stonebraker.pdf">
 						Enlace al artículo completo

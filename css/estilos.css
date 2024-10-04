@@ -30,6 +30,7 @@ aside{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	overflow-wrap: break-word;
+	position: relative;
 }
 
 .contenedor-redondeado-azul {
@@ -44,7 +45,7 @@ aside{
 
 .contenedor-redondeado-azul > img {
 	border-radius: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 8%;
 }
 
 .imagenPequeña {
@@ -155,7 +156,7 @@ aside{
 }
 
 .fondo {
-	background-image: url(../img/11906485_4847236.jpg);
+	background-image: url(../img/fondo.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -196,5 +197,27 @@ h1 {
 .alineado {
 	align-items: center;
 }
-  
+
+.foto{
+	position: absolute;
+	top: 30%;
+	left: 30px;
+	max-width: 10rem;
+}
+
+@media (max-width: 576px) {
+	.foto {
+		top: 25%;
+		max-width: 8rem;
+	}
+
+  }
+
+@media (max-width: 1450px) {
+	.foto {
+		top: 24%;
+	}
+
+  }
+
 
